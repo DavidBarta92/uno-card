@@ -2,5 +2,13 @@
   "dependencies": {
     "express": "^4.19.1",
     "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
   }
 }
