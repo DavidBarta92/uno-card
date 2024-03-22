@@ -8,7 +8,7 @@
     "supertest": "^6.3.4"
   },
   "scripts": {
-    "start": "node src",
-    "test": "jest src/app.test.js"
+    "start": "node server.js",
+    "test": "jest test/app.test.js"
   }
 }
